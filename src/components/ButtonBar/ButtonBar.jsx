@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './ButtonBar.css';
 
 const ButtonBar = ({pages, clickFunction, page}) => {

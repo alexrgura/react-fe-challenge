@@ -29,8 +29,6 @@ const Page = () => {
     const [data, changeData] = useState(null);
 
     useEffect(() => {
-        console.log('page num',page)
-        console.log('headers', headers)
         fetchData(page, changeData, setHeaders)
     }, [page, changeData])
 

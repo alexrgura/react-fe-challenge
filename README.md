@@ -28,7 +28,7 @@ yarn test
 
 ## Design and Decisions
 
-This application was built using React and Javascript. The decision to use this was simply to be able to have a neatly ordered, compartmentalized codebase for ease of evaluation. I broke down the React components into four parts:
+This application was built using React and Javascript. The React frontned was spun up using the create-react-app script for quick setup. The decision to use this was simply to be able to have a neatly ordered, compartmentalized codebase for ease of evaluation. I broke down the React components into four parts:
 
 * PartBox, which is the element that contains the information and editing options for one Part, and which also handles the PUT requests
 * PartList, which creates a list of those components of the length of the array of parts supplied to it
