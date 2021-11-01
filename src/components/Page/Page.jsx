@@ -15,7 +15,7 @@ const pageChanger = (page, changePage, headers) => (num, arrow) => {
     }
 }
 
-async function fetchData(page, changeData, setHeaders){
+export async function fetchData(page, changeData, setHeaders){
     const response = await fetch(`/parts/?page=${page}`)
     response.headers.forEach((value, name) => setHeaders((headers) => ({...headers, [name]: value})))
     const body = await response.json()

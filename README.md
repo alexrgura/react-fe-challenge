@@ -37,6 +37,8 @@ This application was built using React and Javascript. The React frontned was sp
 
 I wrote a few tests for the smaller components, such as PartBox, PartList, and ButtonBar, to confirm that they render the correct elements. These tests are using jest and react-testing-library.  
 
+I also added some tests for the fetchData function contained in the Page component. This involved mocking the fetch call and confirming that the headers and body of the response were properly extracted and stored in state. 
+
 The division of the components was for ease of testing, styling, and reducing repeated code when possible. 
 
 The frontend design was simply based around the mock shown in the code challenge README.
