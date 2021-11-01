@@ -1,0 +1,24 @@
+.button_container{
+    margin-left:70px;
+}
+
+.button{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.enabled{
+    cursor:pointer;
+}
+
+.selected {
+    background-color: lightblue;
+}
+.unselected {
+    background-color: white;
+}
+
+.end_buttons {
+    margin-left: 5px;
+    margin-right: 5px;
+}
